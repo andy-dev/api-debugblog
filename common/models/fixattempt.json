@@ -1,0 +1,27 @@
+{
+  "name": "Fixattempt",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "location": {
+      "type": "string"
+    },
+    "code": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "sources": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

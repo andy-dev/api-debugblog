@@ -1,0 +1,35 @@
+{
+  "name": "Bugs",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "description": {
+      "type": "string",
+      "id": false,
+      "required": true
+    },
+    "isResolved": {
+      "type": "boolean",
+      "required": false
+    },
+    "bugId": {
+      "type": "string",
+      "id": false,
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "Fixattempt": {
+      "type": "hasMany",
+      "model": "Fixattempt",
+      "foreignkey": "location"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
