@@ -15,11 +15,6 @@
     "isResolved": {
       "type": "boolean",
       "required": false
-    },
-    "bugId": {
-      "type": "string",
-      "id": false,
-      "required": true
     }
   },
   "validations": [],
