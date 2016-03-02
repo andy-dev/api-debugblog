@@ -32,13 +32,13 @@
     "dataSource": "db",
     "public": false
   },
-  "Bugs": {
+  "Fixattempt": {
     "dataSource": "db",
     "public": true,
     "$promise": {},
     "$resolved": true
   },
-  "Fixattempt": {
+  "Bug": {
     "dataSource": "db",
     "public": true,
     "$promise": {},

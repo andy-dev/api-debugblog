@@ -1,5 +1,5 @@
 {
-  "name": "Bugs",
+  "name": "Bug",
   "base": "PersistedModel",
   "strict": false,
   "idInjection": false,
@@ -22,7 +22,7 @@
     "Fixattempt": {
       "type": "hasMany",
       "model": "Fixattempt",
-      "foreignkey": "location"
+      "foreignkey": "id"
     }
   },
   "acls": [],
